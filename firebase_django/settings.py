@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'dj_firebase.wsgi.application'
+WSGI_APPLICATION = 'firebase_django.wsgi.application'
 
 
 # Database
