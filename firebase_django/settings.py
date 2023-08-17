@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'dj_firebase.urls'
+ROOT_URLCONF = 'firebase_django.urls'
 
 TEMPLATES = [
     {
