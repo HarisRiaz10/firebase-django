@@ -12,7 +12,8 @@ config = {
   "projectId": "fir-django-690e1",
   "storageBucket": "fir-django-690e1.appspot.com",
   "messagingSenderId": "673967078390",
-  "appId": "1:673967078390:web:46e5138b40122201c0e5d7"
+  "appId": "1:673967078390:web:46e5138b40122201c0e5d7",
+  "databaseURL":""
 }
 
 firebase = pyrebase.initialize_app(config)
