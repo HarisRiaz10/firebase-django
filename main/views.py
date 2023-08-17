@@ -7,12 +7,12 @@ import pyrebase
 import os
 
 config = {
-  apiKey: "AIzaSyCjUOfSfmBdwXeAtIQ1BG9WWIKfR2OT7Bs",
-  authDomain: "fir-django-690e1.firebaseapp.com",
-  projectId: "fir-django-690e1",
-  storageBucket: "fir-django-690e1.appspot.com",
-  messagingSenderId: "673967078390",
-  appId: "1:673967078390:web:46e5138b40122201c0e5d7"
+  "apiKey": "AIzaSyCjUOfSfmBdwXeAtIQ1BG9WWIKfR2OT7Bs",
+  "authDomain": "fir-django-690e1.firebaseapp.com",
+  "projectId": "fir-django-690e1",
+  "storageBucket": "fir-django-690e1.appspot.com",
+  "messagingSenderId": "673967078390",
+  "appId": "1:673967078390:web:46e5138b40122201c0e5d7"
 }
 
 firebase = pyrebase.initialize_app(config)
