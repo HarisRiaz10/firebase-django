@@ -26,7 +26,7 @@ SECRET_KEY = '!lkxhb+59!5e9+@hrz(l72hob9o6%prq61)h0=6#439y*bcbd7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [‘https://ed-4533950298456064.educative.run’.replace(‘https://‘,’’), ‘0.0.0.0’]
 
 
 # Application definition
