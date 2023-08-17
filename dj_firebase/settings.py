@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'firebase_django.urls'
+ROOT_URLCONF = 'dj_firebase.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'firebase_django.wsgi.application'
+WSGI_APPLICATION = 'dj_firebase.wsgi.application'
 
 
 # Database
