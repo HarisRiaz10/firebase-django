@@ -39,11 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -52,6 +54,27 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'dj_firebase.urls'
+CORS_ALLOWED_ORIGINS = [
+    "https://ed-5671030678618112.educative.run",  # Replace with your actual domain
+    "http://0.0.0.0",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+CORS_ALLOW_CREDENTIALS = True
+
+
+CSRF_TRUSTED_ORIGINS = ['https://ed-5671030678618112.educative.run']
+
+CORS_REPLACE_HTTPS_REFERER = True
+CSRF_COOKIE_DOMAIN = 'ed-5671030678618112.educative.run'
+
+CORS_ORIGIN_WHITELIST = (
+    'https://ed-5671030678618112.educative.run',
+    'ed-5671030678618112.educative.run',
+)
 
 TEMPLATES = [
     {
